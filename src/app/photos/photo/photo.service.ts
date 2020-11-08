@@ -1,5 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
+import { Observable } from 'rxjs';
 
 import { Photo } from './photo';
 
@@ -10,11 +11,11 @@ const API = 'http://localhost:3000';
 })
 export class PhotoService {
 
-  constructor(private http: HttpClient) {}
+  constructor(private http: HttpClient) { }
 
-  listFromUser(userName: string) {
+  listFromUser(userName: string): Observable<Photo[]> {
       return this.http
-          .get<Photo[]>(API + '/' + userName + '/photos');
+        .get<Photo[]>(`${API}/${userName}/photos`);
   }
 
 }
