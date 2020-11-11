@@ -19,7 +19,7 @@ INSERT INTO user (
     user_email,
     user_password,
     user_full_name
-) SELECT 'flavio', 'flavio@alurapic.com.br', '123', 'Flávio' WHERE NOT EXISTS (SELECT * FROM user WHERE user_name = 'flavio')
+) SELECT 'leticia', 'leticia@alurapic.com.br', '123', 'Leticia' WHERE NOT EXISTS (SELECT * FROM user WHERE user_name = 'leticia')
 `;
 
 const INSERT_DEFAULT_USER_2 = 
