@@ -7,6 +7,7 @@ import { PhotosComponent } from './photos/photos.component';
 import { LoadButtonComponent } from './load-button/load-button.component';
 import { PhotoModule } from '../photo/photo.module';
 import { PhotoFormModule } from '../photo-form/photo-form.module';
+import { DarkenOnHoverModule } from 'src/app/shared/directives/darken-on-hover/darken-on-hover.module';
 
 @NgModule({
     declarations: [
@@ -19,6 +20,7 @@ import { PhotoFormModule } from '../photo-form/photo-form.module';
         PhotoFormModule,
         PhotoListModule,
         HttpClientModule,
+        DarkenOnHoverModule,
         CommonModule
     ]
 })
