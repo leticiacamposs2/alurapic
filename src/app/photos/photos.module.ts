@@ -9,6 +9,7 @@ import { PhotosComponent } from './photo-list/photos/photos.component';
 import { FilterByDescription } from './photo-list/filter-by-description.pipe';
 import { LoadButtonComponent } from './photo-list/load-button/load-button.component';
 import { CardModule } from '../shared/components/card/card.module';
+import { SearchComponent } from './photo-list/search/search.component';
 
 @NgModule({
     declarations: [ 
@@ -17,7 +18,8 @@ import { CardModule } from '../shared/components/card/card.module';
         PhotoFormComponent, 
         PhotosComponent,
         FilterByDescription,
-        LoadButtonComponent
+        LoadButtonComponent,
+        SearchComponent
     ],
     imports: [ 
         HttpClientModule,
