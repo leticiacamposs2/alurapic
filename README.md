@@ -91,14 +91,14 @@ Repositório com o intuito de documentar os estudos do curso de Angular da Alura
     - [x] Interceptadores e envio do token
 
 #### ❌ Angular parte 3: Upload, build e novos componentes
-- [ ] Upload de fotos
-    - [ ] Rodapé
-    - [ ] O formulário upload de fotos
-    - [ ] Validando o formulário
-    - [ ] Obtendo os dados do formulário
-    - [ ] Upload da foto
-    - [ ] FormData
-    - [ ] Adequando a exibição das fotos
+- [x] Upload de fotos
+    - [x] Rodapé
+    - [x] O formulário upload de fotos
+    - [x] Validando o formulário
+    - [x] Obtendo os dados do formulário
+    - [x] Upload da foto
+    - [x] FormData
+    - [x] Adequando a exibição das fotos
 
 - [ ] Lapidando o upload
     - [ ] Um botão mais elegante
