@@ -163,3 +163,4 @@ Repositório com o intuito de documentar os estudos do curso de Angular da Alura
 - Com o Async pipe conseguimos capturar a emissão do Observable diretamente do nosso template.
 - O guarda de rotas serve para darmos consistência para nossa aplicação, liberando acesso apenas para as rotas que fazem sentido para nosso usuário.
 - Em um formulário, para saber habilitar um botão quando os dados tiverem dados, mesmo tendo dados assincronos usa-se pending dessa forma `[disabled]="signupForm.invalid || signupForm.pending"`
+- Um input com o type="file" básico, em que o accpet="image/*", faz com que apenas arquivos de imagem possam ser selecionados, ou seja, uma espécie de filtro.
