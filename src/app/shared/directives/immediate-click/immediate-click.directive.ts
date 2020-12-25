@@ -1,6 +1,6 @@
 import { Directive, ElementRef, OnInit } from "@angular/core";
 
-import { PlatformDetectorService } from 'src/app/core/platform-detector/platform-detector.service';
+import { PlatformDetectorService } from 'src/app/core/plataform-detector/platform-detector.service';
 
 @Directive({
     selector: '[immediateClick]'

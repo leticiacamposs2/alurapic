@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-
 import { NewUser } from './new-user';
+import { provideForRootGuard } from '@angular/router/src/router_module';
 
 const API_URL = "http://localhost:3000";
 
@@ -11,6 +11,7 @@ export class SignUpService {
     constructor(private http: HttpClient) {}
 
     checkUserNameTaken(userName: string) {
+
         return this.http.get(API_URL + '/user/exists/' + userName);
     }
 
