@@ -100,14 +100,14 @@ Repositório com o intuito de documentar os estudos do curso de Angular da Alura
     - [x] FormData
     - [x] Adequando a exibição das fotos
 
-- [ ] Lapidando o upload
-    - [ ] Um botão mais elegante
-    - [ ] Preview de imagens
-    - [ ] Variável de templates
-    - [ ] *ngIf e else
-    - [ ] Escondendo um elemento
-    - [ ] Seleção automática de arquivos
-    - [ ] Bloqueando acesso não autenticado
+- [x] Lapidando o upload
+    - [x] Um botão mais elegante
+    - [x] Preview de imagens
+    - [x] Variável de templates
+    - [x] *ngIf e else
+    - [x] Escondendo um elemento
+    - [x] Seleção automática de arquivos
+    - [x] Bloqueando acesso não autenticado
 
 - [ ] Detalhes da foto
     - [ ] Rotas parametrizadas
@@ -173,3 +173,11 @@ Repositório com o intuito de documentar os estudos do curso de Angular da Alura
         Error!
     </ng-template>
 ```
+
+-----
+
+## 🛠️ Requisitos para rodar o projeto:
+
+- API: Rodar com a versão do node 8.0.0
+- Frontend: Rodar com a versão do node 12.19.0
+

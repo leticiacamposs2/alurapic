@@ -1,4 +1,4 @@
-import { Injectable } from "@angular/core";
+import { Injectable } from '@angular/core';
 import {
     HttpRequest,
     HttpHandler,
@@ -8,8 +8,8 @@ import {
     HttpInterceptor,
     HttpProgressEvent,
     HttpHeaderResponse
-} from "@angular/common/http";
-import { Observable } from "rxjs";
+} from '@angular/common/http';
+import { Observable } from 'rxjs';
 import { TokenService } from '../token/token.service';
 
 @Injectable()
