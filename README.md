@@ -109,21 +109,21 @@ Repositório com o intuito de documentar os estudos do curso de Angular da Alura
     - [x] Seleção automática de arquivos
     - [x] Bloqueando acesso não autenticado
 
-- [ ] Detalhes da foto
-    - [ ] Rotas parametrizadas
-    - [ ] Extraindo parâmetros de rotas
-    - [ ] Segmento de rota
-    - [ ] Buscando a foto selecionada da API
-    - [ ] Serviço para obtenção de segmentos de rotas
+- [x] Detalhes da foto
+    - [x] Rotas parametrizadas
+    - [x] Extraindo parâmetros de rotas
+    - [x] Segmento de rota
+    - [x] Buscando a foto selecionada da API
+    - [x] Serviço para obtenção de segmentos de rotas
 
-- [ ] Comentando fotos
-    - [ ] Buscando comentários
-    - [ ] Comentários como componente
-    - [ ] Lidando com o refresh de comentários
-    - [ ] Lapidando a experiência do usuário
+- [x] Comentando fotos
+    - [x] Buscando comentários
+    - [x] Comentários como componente
+    - [x] Lidando com o refresh de comentários
+    - [x] Lapidando a experiência do usuário
 
 - [ ] Remoção de fotos e novos componentes
-    - [ ] Permissão de comentários
+    - [x] Permissão de comentários
     - [ ] Remoção de fotos
     - [ ] Ocultando elementos que requerem permissão
     - [ ] Revisão - O Pipe Async
