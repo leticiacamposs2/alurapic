@@ -173,6 +173,8 @@ Repositório com o intuito de documentar os estudos do curso de Angular da Alura
         Error!
     </ng-template>
 ```
+- O operador `switchMap` cancela o `Observable` anterior passando o fluxo para um novo `Observable`, garantindo assim que a emissão tenha apenas o valor emitido pelo `Observable` retornado por `switchMap`.
+
 
 -----
 

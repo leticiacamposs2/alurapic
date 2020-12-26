@@ -1,15 +1,12 @@
 <div *ngIf="(comments$ | async) as comments">
-    <ul class="list-unstyled">
+    <ul class="list-unstyled comment-list ">
         <li *ngFor="let comment of comments">
-            <a class="text-dark font-weight-bold mr-1" [routerLink]="['/user', comment.userName]">
-                {{ comment.userName }}
+            <a
+                class="text-dark font-weight-bold mr-1"
+                [routerLink]="['/user', comment.userName]">
             </a>
-            <em>
-                {{ comment.date | date:'dd-MM-yyyy HH:mm' }}
-            </em>
-            <p class="break-word mb-2">
-                {{ comment.text }}
-            </p>
+            <em>{{ comment.date | date: 'dd-MM-yyyy HH:mm'}}</em>
+            <p class-"break-word mb2">{{ comment.text }}</p>
         </li>
     </ul>
     <ap-photo-comments [photoId="photoId"></ap-photo-comments>
