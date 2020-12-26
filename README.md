@@ -122,12 +122,12 @@ Repositório com o intuito de documentar os estudos do curso de Angular da Alura
     - [x] Lidando com o refresh de comentários
     - [x] Lapidando a experiência do usuário
 
-- [ ] Remoção de fotos e novos componentes
+- [x] Remoção de fotos e novos componentes
     - [x] Permissão de comentários
-    - [ ] Remoção de fotos
-    - [ ] Ocultando elementos que requerem permissão
-    - [ ] Revisão - O Pipe Async
-    - [ ] Sobre liberação de recursos
+    - [x] Remoção de fotos
+    - [x] Ocultando elementos que requerem permissão
+    - [x] Revisão - O Pipe Async
+    - [x] Sobre liberação de recursos
 
 
 - [ ] Componente de notificação
@@ -175,6 +175,9 @@ Repositório com o intuito de documentar os estudos do curso de Angular da Alura
 ```
 - O operador `switchMap` cancela o `Observable` anterior passando o fluxo para um novo `Observable`, garantindo assim que a emissão tenha apenas o valor emitido pelo `Observable` retornado por `switchMap`.
 
+- Sobre Pipe Async:
+    - Observables associados ao pipe async são liberados quando o componente cujo o template faz parte é destruído, livrando o desenvolvedor desta responsabilidade.
+    - Permite que o template de um componente realize a inscrição de um observable fornecendo o valor emitido diretamente no template.
 
 -----
 
